@@ -1,5 +1,7 @@
 package leetorg4g;
 
+import java.util.HashSet;
+
 public class SumArrayBeforePivotEqSumAfterPivot {
 
     public static int partitionArray(int ar[]){ // O(n) Space O(n) time ew!

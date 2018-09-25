@@ -9,7 +9,7 @@ public class ReverseLL {
 
         Node cur=head;
         Node prev=null;
-        Node next=null;
+        Node next;
 
         while(cur !=null){
             next=cur.next;
