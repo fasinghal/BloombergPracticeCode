@@ -5,7 +5,13 @@ import java.util.Stack;
 
 public class PalindromeLL {
 
-    public static boolean isPalindromeLL(Node head){ //takes Space O(N)
+    /***
+     * takes Space O(N)
+     * the logic of slow and fast runner can be used to find the middle of LL and cycles
+     * @param head
+     * @return
+     */
+    public static boolean isPalindromeLL(Node head){
         if(head==null) return false;
 
         Stack<Node> stk = new Stack<>();

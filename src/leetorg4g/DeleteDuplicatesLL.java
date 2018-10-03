@@ -23,7 +23,7 @@ public class DeleteDuplicatesLL {
         return hs.contains(head.data)?head.next:head;
     }
 
-    //if the LL is sorted in O(1) space => time complexity is higher O(n^2)
+    //if the LL is sorted in O(1) space => time complexity is higher O(n^2) meh
 
     public static Node deleteDuplicates2(Node head) {
         Node ptr = head;

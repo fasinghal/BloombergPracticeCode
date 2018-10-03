@@ -31,6 +31,14 @@ public class GroupAnagrams {
         }
         ArrayList<java.util.ArrayList<String>> list = new ArrayList<>();
         h.forEach((k,v)->list.add(v));
+
+        //or
+
+        ArrayList<String> diffWayToConstruct  = new ArrayList(h.values());
+
+        //or
+        //simply return h.values();
+
         return list;
 
     }
