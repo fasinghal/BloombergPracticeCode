@@ -58,7 +58,7 @@ public class PalindromeLL {
         Node head = new Node(1);
         Node a = new Node(2);
         Node b = new Node(3);
-        Node c = new Node(1);
+        Node c = new Node(2);
         Node d = new Node(1);
         head.next=a;
         a.next=b;
